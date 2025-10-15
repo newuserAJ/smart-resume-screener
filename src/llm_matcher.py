@@ -1,3 +1,19 @@
+"""
+LLM PROMPT ENGINEERING STRATEGY:
+
+This prompt uses a structured approach to ensure consistent, 
+high-quality matching results:
+
+1. Role Definition: Sets context as "expert technical recruiter"
+2. Clear Input Structure: Separates job requirements and candidate info
+3. Explicit Scoring Criteria: 50% skills, 30% experience, 20% education
+4. Output Format: Enforces JSON for reliable parsing
+5. Assessment Categories: Four clear match levels
+
+The prompt is designed to minimize hallucination and ensure
+reproducible results across different LLM providers.
+"""
+
 # src/llm_matcher.py
 import ollama
 import json
