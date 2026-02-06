@@ -368,7 +368,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Project Link: https://github.com/yourusername/smart-resume-screener
+Project Link: https://github.com/newuserAJ/smart-resume-screener
 
 ## Acknowledgments
 
